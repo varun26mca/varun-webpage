@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Varun C</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+  <a href="#" class="logo-container">
+    <img src="assets/logo.png" class="logo-img">
+  </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="resume.html" class="active">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="toggleMenu()">Home</a>
+    <a href="about.html" onclick="toggleMenu()">About</a>
+    <a href="projects.html" onclick="toggleMenu()">Projects</a>
+    <a href="skills.html" onclick="toggleMenu()">Skills</a>
+    <a href="resume.html" onclick="toggleMenu()">Resume</a>
+    <a href="contact.html" onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Resume</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="resume-section">
+
+      <div class="download-block">
+        <p>Download the full PDF resume to get a complete overview of my qualifications, experience, and achievements.</p>
+        <a class="btn-primary" href="VARUN_RESUME.pdf" download>Download Resume PDF</a>
+      </div>
+
+      <div class="resume-block">
+        <div class="resume-block-title">Education</div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Master of Computer Applications (MCA)</div>
+            <div class="resume-entry-sub">AVS College of Arts & Science, Salem</div>
+          </div>
+          <div class="resume-entry-year">2024 — Present</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Bachelor of Computer Applications (BCA)</div>
+            <div class="resume-entry-sub">Dr. R. K. Shanmugam College of Arts & Science — 76%</div>
+          </div>
+          <div class="resume-entry-year">2021 — 2024</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">HSC (+2)</div>
+            <div class="resume-entry-sub">Govt. Higher Secondary School, Aragalur — 76.34%</div>
+          </div>
+          <div class="resume-entry-year">2021</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">SSLC (10th)</div>
+            <div class="resume-entry-sub">Govt. Higher Secondary School, Aragalur — 63.8%</div>
+          </div>
+          <div class="resume-entry-year">2019</div>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <div class="resume-block-title">Internships</div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Web Development Intern</div>
+            <div class="resume-entry-sub">InRGB Solutions, Salem</div>
+          </div>
+          <div class="resume-entry-year">2023</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">AI Tools & Machine Learning Intern</div>
+            <div class="resume-entry-sub">CSK Academy, Salem</div>
+          </div>
+          <div class="resume-entry-year">2024</div>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <div class="resume-block-title">Projects</div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">College Gate Pass Managing System</div>
+            <div class="resume-entry-sub">Flask, SQLite, QR Code, PDF Export</div>
+          </div>
+          <div class="resume-entry-year">Mini Project</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Restaurant Billing System</div>
+            <div class="resume-entry-sub">Python, SQLite, Billing Logic</div>
+          </div>
+          <div class="resume-entry-year">2024</div>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <div class="resume-block-title">Skills</div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Programming</div>
+            <div class="resume-entry-sub">Python, HTML, CSS, JavaScript</div>
+          </div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Databases</div>
+            <div class="resume-entry-sub">MySQL, SQLite</div>
+          </div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Tools</div>
+            <div class="resume-entry-sub">Git, GitHub, Figma, MS Office</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <div class="resume-block-title">Personal Details</div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Varun C</div>
+            <div class="resume-entry-sub">5/56 West Pallakadu, Sitheri (PO), Thalaivasal (TK), Salem (DT) — 636 101</div>
+          </div>
+          <div class="resume-entry-year">Male, 21</div>
+        </div>
+        <div class="resume-entry">
+          <div>
+            <div class="resume-entry-title">Nationality</div>
+            <div class="resume-entry-sub">Indian — Unmarried</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Varun C</span> — Salem, Tamil Nadu</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
